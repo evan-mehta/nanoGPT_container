@@ -1,0 +1,4 @@
+1. Clone repository into directory
+2. Run the following command in terminal (replace DIRECTORY_PATH with actual path to directory):
+
+$ podman run -it -v DIRECTORY_PATH/ngpt.sh:/tmp/ngpt.sh ubuntu bash /tmp/ngpt.sh
